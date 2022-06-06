@@ -1,0 +1,14 @@
+#purchased_vouchers{
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+}
+.voucher{
+    text-align: center;
+    padding: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#wallet_balance,#balance{
+    text-align: center;
+}
